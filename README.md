@@ -1,1 +1,1 @@
-weekday-algorithms
+Code for future blog article on https://swistak.codes

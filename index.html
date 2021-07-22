@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Obliczanie dnia tygodnia</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <label>
+      Podaj datę:
+    </label>
+    <input type="date" id="date-input" />
+    <button type="button" id="count-btn">Oblicz!</button>
+    <div id="results">
+      <hr style="width: 100%;" />
+      <h2>RFC 3339</h2>
+      <p><span id="partial-rfc"></span> mod 7 = <span id="rfc"></span></p>
+      <p>Wynik: <span id="rfc-day"></span></p>
+      <h2>Sakamoto</h2>
+      <p><span id="partial-s"></span> mod 7 = <span id="s"></span></p>
+      <p>Wynik: <span id="s-day"></span></p>
+    </div>
+    <script src="index.js" defer></script>
+  </body>
+</html>

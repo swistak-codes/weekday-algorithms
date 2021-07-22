@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Kongruencja Zellera</title>
+    <link href="style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <label>
+      Podaj datę:
+    </label>
+    <input type="date" id="date-input" />
+    <button type="button" id="count-btn">Oblicz!</button>
+    <div id="results">
+      <hr style="width: 100%;" />
+      <p>m = <span id="m"></span></p>
+      <p>K = <span id="k"></span></p>
+      <p>J = <span id="j"></span></p>
+      <p>h = <span id="partial-h"></span> mod 7 = <span id="h"></span></p>
+      <p>Wynik: <span id="day"></span></p>
+    </div>
+    <script src="zeller.js" defer></script>
+  </body>
+</html>
